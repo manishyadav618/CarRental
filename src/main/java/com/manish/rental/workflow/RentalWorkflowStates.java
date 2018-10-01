@@ -7,6 +7,9 @@ import com.manish.rental.model.RentalDates;
 import com.manish.rental.services.PaymentService;
 
 public enum RentalWorkflowStates {
+    /*
+        Various stages of Car rental booking workflow.
+     */
     Initial{
         RentalWorkflowStates doWork(CarRentalContext context){
             context.getWorkflowService().doInitialWork(context);

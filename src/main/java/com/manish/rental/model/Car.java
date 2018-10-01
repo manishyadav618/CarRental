@@ -1,11 +1,12 @@
 package com.manish.rental.model;
 
-
 import java.util.Objects;
 
-
-
 public class Car {
+    /*
+       Represnts a Car object. Contains carID, type and rental
+       price per day.
+     */
     private String carId;
     private CarType type;
     private double pricePerDay;

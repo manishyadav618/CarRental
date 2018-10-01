@@ -5,6 +5,9 @@ import java.time.format.DateTimeFormatter;
 import java.util.Objects;
 
 public class RentalTrip {
+    /*
+      Hold a rental. Contains car object and dates for which it has been rented.
+     */
     private static DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 
     private Car car;

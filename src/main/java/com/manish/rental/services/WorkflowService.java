@@ -6,6 +6,10 @@ import com.manish.rental.model.PaymentDetails;
 import com.manish.rental.model.RentalDates;
 
 public interface WorkflowService {
+    /*
+        Service class of methods to do work during various stages of car rental
+        booking workflow.
+     */
 
     public void doInitialWork(CarRentalContext context);
 

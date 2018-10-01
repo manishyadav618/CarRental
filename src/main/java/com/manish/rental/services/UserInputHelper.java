@@ -6,6 +6,9 @@ import com.manish.rental.model.PaymentDetails;
 import com.manish.rental.model.RentalDates;
 
 public interface UserInputHelper {
+    /*
+        Service class to represent user inputs/interactions.
+     */
 
     public RentalDates getRentalDatesFromUser();
 

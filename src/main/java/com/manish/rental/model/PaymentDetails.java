@@ -3,6 +3,9 @@ package com.manish.rental.model;
 import java.time.LocalDate;
 
 public class PaymentDetails {
+    /*
+        Model to hold payment details.
+     */
     private String cardNumber;
     private String cardUserName;
     private LocalDate expirationDate;

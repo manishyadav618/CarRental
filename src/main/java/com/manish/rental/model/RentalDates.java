@@ -5,6 +5,9 @@ import java.time.temporal.ChronoUnit;
 import java.util.Objects;
 
 public class RentalDates {
+    /*
+        Holds start and end date of rental period.
+     */
     private LocalDate startDate;
     private LocalDate endDate;
 

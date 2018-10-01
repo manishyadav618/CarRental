@@ -3,6 +3,8 @@ package com.manish.rental.model;
 import java.util.Objects;
 
 public class Customer {
+    /* Model to hold customer information
+     */
     private String firstName;
     private String lastName;
     private String drivingLicenceNumber;

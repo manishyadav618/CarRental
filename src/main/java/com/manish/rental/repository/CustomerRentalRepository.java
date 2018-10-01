@@ -6,6 +6,9 @@ import com.manish.rental.model.RentalTrip;
 import java.util.List;
 
 public interface CustomerRentalRepository {
+    /*
+        Repository to hold customer and their rental trip details.
+     */
 
     public void addRentalTrip(Customer customer, RentalTrip trip);
 

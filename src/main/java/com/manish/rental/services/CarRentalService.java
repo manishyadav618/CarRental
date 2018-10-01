@@ -5,6 +5,9 @@ import com.manish.rental.model.*;
 import java.util.List;
 
 public interface CarRentalService {
+    /*
+        Service class for checking available cars and booking them.
+     */
 
     public RentalTrip getTripsDuringARentalPeriod(CarRentalContext context, RentalDates rentalDates);
 

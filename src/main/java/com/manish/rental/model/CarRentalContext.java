@@ -7,6 +7,11 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class CarRentalContext {
+    /* Represent a container to hold the state while the rental workflow
+       execution happens. Hold both state and services required by the
+       workflow.
+     */
+
     //Data storage fields needed in the rental
     private Customer customer;
     private Set<RentalTrip> trips = new HashSet<>();

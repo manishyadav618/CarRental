@@ -17,6 +17,9 @@ import com.manish.rental.services.impl.DummyPaymentService;
 import com.manish.rental.services.impl.WorkflowServiceImpl;
 
 public class CarRentalWorkflowEngine {
+    /*
+      Car Rental execution engine.
+     */
     private RentalWorkflowStates state;
     private CarRentalContext carRentalContext;
 
